@@ -108,7 +108,7 @@ class segmentationBuffers:
             percentage = float(count) / float(self.grid_width * self.grid_height)
             print(f' {n:2d}  {class_name:<18s} {count:3d}   {percentage:f}')
 
-        # Check if person is detected
+        # Check if class is detected
         detected_classes = [class_name for class_name in classes_to_detect if class_counts.get(class_name, 0) > 0]
         if detected_classes:
             print(f"Detected {Unsafe}, do not cross!")
