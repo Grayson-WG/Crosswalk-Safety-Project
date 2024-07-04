@@ -37,3 +37,6 @@ To install them on apt you need to use these commands: sudo apt install python3-
 
 #### Step 2
 If you want to check to see if they are installed run these commands: python -c "import numpy; print(numpy.version)" python -c "import argparse; print(argparse.file)" python -c "import cv2; print(cv2.version)"
+
+## Running the code
+Once you've put the code in a folder, run the Project.py file, point it at street or somthing else with cars and it will tell you whether or not it's safe to cross.
